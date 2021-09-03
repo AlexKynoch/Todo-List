@@ -52,12 +52,13 @@ export default function Todoitem({ task }) {
                 </div>
                 <div className="col-md-1">
                     <button className='btn btn-danger btn-sm m-1 ' onClick={() => deletetask(task)}>Delete</button>
-                </div>
 
+                </div>
                 <input type="text" style={{ display: show }} value={newtask} onChange={(e) => { setnewtask(e.target.value) }} />
                 <button style={{ display: show }} className='btn btn-success m-1' onClick={() => { finaledit(task) }}>Final Edit</button>
                 <hr />
             </div>
         </div>
+
     )
 }

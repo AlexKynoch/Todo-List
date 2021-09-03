@@ -78,3 +78,8 @@ h1 {
 input.form-control:focus::-webkit-input-placeholder {
   opacity: 0;
 }
+
+hr {
+  height: 1.5px !important;
+  background-color: darkgreen !important;
+}
