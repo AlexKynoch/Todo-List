@@ -6,6 +6,8 @@ import { Provider } from 'react-redux'
 import taskReducer from './taskReducer';
 import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Addtask from './Addtask';
+import Todolist from './Todolist';
+
 
 
 
@@ -18,6 +20,7 @@ function App() {
       <Provider store={store}>
         <Navbar />
         <Addtask />
+        <Todolist />
       </Provider>
 
     </div>

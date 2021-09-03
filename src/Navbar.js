@@ -4,8 +4,9 @@ import { useSelector } from 'react-redux'
 export default function Navbar() {
     const taskobject = useSelector(store => store)
     return (
-        <div>
-            <h1>Todo List Tasks Remaining: {taskobject.taskitems.length}</h1>
+        <div style={{ backgroundColor: '#8FBC8F', borderRadius: '10px' }} className='m-5'>
+            <h1>Todo List </h1>
+            <h3>Tasks left to do: {taskobject.taskitems.length}</h3>
         </div>
     )
 }

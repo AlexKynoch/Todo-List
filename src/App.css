@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  background-color: lightgrey;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 16px;
+  font-family: "Audiowide", sans-serif;
 }
 
 .App-logo {
@@ -37,13 +48,31 @@
   }
 }
 
-/* button.btn {
-  background-color: hotpink;
-  margin: 0px;
-  padding: 0px;
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 0.5rem 0.5rem !important;
+}
+
+.btn-success {
+  border-color: white !important;
+}
+
+h1 {
+  font-size: 15px;
+  padding-top: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+/* .col-md-1 { */
+/* background-color: hotpink; */
+/* margin: auto;
 } */
 
-/* .Container {
-  background-color: hotpink;
+.form-control:focus::placeholder {
+  color: transparent;
+}
 
-} */
+input.form-control:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
